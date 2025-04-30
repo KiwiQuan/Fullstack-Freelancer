@@ -1,0 +1,47 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+figure {
+  background: white;
+  border: 1px solid #eee;
+  min-width: 200px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+tr:nth-child(even) {
+  background-color: #c2c2c2;
+}
+
+h1 {
+  text-align: center;
+  padding: 1ch;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+figure p {
+  text-align: center;
+}
